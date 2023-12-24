@@ -1,0 +1,112 @@
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.subSect1{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.submit{
+    display: flex;
+    flex-direction: column;
+}
+.output{
+    display: flex;
+    justify-content: space-between;
+}
+.subSect1 input{
+    width: 5rem;
+    border: 1px solid rgba(128, 128, 128,0.4);
+    border-radius: 5px;
+    padding: 0 0 0 0.5rem;
+    height: 2rem;
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+}
+.rangeRoller{
+    width: 100%;
+    -webkit-appearance: none;
+    appearance: none;
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+
+}
+.rangeRoller::-webkit-slider-runnable-track{
+    height: 0.4rem;
+}
+input[type="range"]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #6F42C1;
+    margin-top: -10px;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    border:2px solid white;
+    box-shadow: 0 0 0 4px rgba(111, 66, 193,0.2);
+}
+input[type="range"]::-webkit-slider-thumb:active{
+    background-color: rgba(111, 66, 193,0.7);
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.subsec2{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+input[type="checkbox"]{
+    accent-color: #6F42C1;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 20px;
+}
+.submit{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+.generate{
+    height: 2rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #6F42C1;
+    color: white;
+}
+.outputDisplay{
+    height: 4rem;
+    width: 85%;
+    border-radius: 5px;
+    border: none;
+    padding-left: 1rem;
+    font-size: 1rem;
+    color: rgba(32, 32, 32,0.9);
+    background-color: rgb(255, 255, 255,0.8);
+}
+.copyIcon{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 5px;
+    background-color: #6F42C1;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+.copyIcon:hover{
+    font-size: 1.6rem;
+}
